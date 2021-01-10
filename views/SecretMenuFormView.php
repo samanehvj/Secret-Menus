@@ -8,7 +8,7 @@
             </div>
 
             <div class="form-group">
-                <label for="price">Food Price </label>
+                <label for="price">Food Price : </label>
                 <input name="price" type="text" class="form-control" id="price" placeholder="Missing Brand Name">
             </div>
 
