@@ -26,7 +26,7 @@
                 <input name="image" type="file" class="form-control-file" id="image">
             </div>
 
-            <button type="submit" class="btn btn-info mb-2" style="font-family: Vollkorn;">Submit</button>
+            <button type="submit" class="btn btn-dark text-light mb-2" style="font-family: ovo;">Submit</button>
         </form>
     </div>
 </div>
