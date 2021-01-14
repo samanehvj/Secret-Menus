@@ -6,6 +6,41 @@ h2 {
   font-family: "vollkorn";
 }
 
+.bg-nav{
+  background-color: #fcc756;
+}
+
+  
+
+   .banner {
+    margin: 0 auto;
+    max-width: 801px;
+    margin-bottom: 40px;
+    padding: 30px;
+  }
+
+ 
+.head{
+    font-weight: bold;
+    text-align: center;
+    color: #fcc756;
+    margin-top: 50px;
+    margin: 0 auto;
+    border-radius: 3px;
+    font-family: "ovo";
+    font-size: 40px;
+
+  } 
+  
+  .text p {
+    margin: 5%;
+    font-weight: bold;
+    color: white;   
+    margin-top: 29px;
+    font-family: "roboto";
+
+  }  
+
 @media (min-width: 19em) {
   .home .card-columns {
     -webkit-column-count: 2;
@@ -15,7 +50,7 @@ h2 {
 }
 
 @media (min-width: 48em) {
-  .home .card-columns {
+  .home .card-columns   {
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
@@ -23,7 +58,7 @@ h2 {
 }
 
 @media (min-width: 62em) {
-  .home .card-columns {
+  .home .card-columns   {
     -webkit-column-count: 4;
     -moz-column-count: 4;
     column-count: 4;
@@ -31,9 +66,13 @@ h2 {
 }
 
 @media (min-width: 75em) {
-  .home .card-columns {
+  .home .card-columns   {
     -webkit-column-count: 5;
     -moz-column-count: 5;
     column-count: 5;
   }
 }
+
+
+
+
