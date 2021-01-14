@@ -1,6 +1,8 @@
 <?php
 
 include_once("./models/DatabaseModel.php");
+include_once("./models/AdFactory.php");
+include_once("./models/AdModel.php");
 include_once("./models/BrandFactory.php");
 include_once("./models/BrandModel.php");
 include_once("./models/SecretMenuFactory.php");
