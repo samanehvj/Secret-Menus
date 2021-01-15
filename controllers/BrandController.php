@@ -16,6 +16,8 @@ class BrandController extends Controller
         $content = $this->loadView("views/HomeHeadView.php");
 
         $this->data = BrandModel::list();
+        $this->ads = AdModel::list();
+
         $content .= "<div class='container'>" . $this->loadView("views/BrandsView.php") . "</div>";
 
         $content .= $this->loadView("views/BrandFormView.php");

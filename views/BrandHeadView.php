@@ -1,6 +1,6 @@
 <nav class="navbar navbar-light bg-warning justify-content-around mb-5">
     <a class="navbar-brand" href="index.php">
-        <img src="imgs/logo.png" width="80">
+        <img src="imgs/logo.png" width="130">
     </a>
     <div class="form-inline">
         <h2><?= $this->title ?></h2>
