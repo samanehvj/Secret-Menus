@@ -1,6 +1,6 @@
-<nav class="navbar navbar-light bg-warning justify-content-around mb-5 ">
+<nav class="navbar navbar-light bg-nav justify-content-around mb-5 ">
     <a class="navbar-brand d-block " href="index.php">
-        <img src="imgs/logo.png" width="100">
+        <img src="imgs/logo.png" width="130">
     </a>
     <div class="form-inline text-center ">
 
@@ -38,4 +38,11 @@
         <button class="btn bg-dark text-light my-2 my-sm-0" type="submit">Search</button>
     </form>
 </nav>
+
+
+  <div class="w3-row w3-border ">
+  <div class="w3-container w3-half bg-dark text-center text-light banner">
+    <h2 class="head">GET ABOUT SECRET MENUS TODAY!</h2>  
+    <p>s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+  </div>
 <div class="clearfix"></div>
