@@ -5,6 +5,6 @@
     <div class="form-inline">
         <h2><?= $this->title ?></h2>
     </div>
-    <a href="index.php" class="btn bg-dark text-light" style="font-size: 15px;font-family: raleway;"> Back</a>
+    <a href="index.php" class="btn bg-dark text-light" style="font-size: 15px;font-family: ovo;"> Back</a>
 </nav>
 <div class="clearfix"></div>
