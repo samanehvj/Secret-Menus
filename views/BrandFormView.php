@@ -7,7 +7,7 @@
             </div>
 
             <div class="form-group">
-                <label for="category" style="font-size: 20px;font-family: Vollkorn;">Category</label>
+                <label for="category" style="font-size: 20px;font-family: ovo;">Category</label>
                 <select name="category" class="form-control" id="category">
                     <?php
                     $categories = CategoryModel::list();
@@ -22,7 +22,7 @@
                 </select>
             </div>
             <div class="form-group">
-                <label for="image" style="font-size: 20px;font-family: Vollkorn;">Image</label>
+                <label for="image" style="font-size: 20px;font-family: ovo;">Image</label>
                 <input name="image" type="file" class="form-control-file" id="image">
             </div>
 
