@@ -8,7 +8,7 @@
 
         if (!isset($_GET['category'])) {
         ?>
-            <a class="nav-link bg-dark text-light text-center" style="font-size: 20px;font-family: Vollkorn;" href="index.php"> All </a>
+            <a class="nav-link bg-dark text-light text-center" style="font-size: 20px;font-family: ovo;" href="index.php"> All </a>
         <?php
         } else {
         ?>
@@ -26,7 +26,7 @@
                 $cls = " bg-dark text-light";
             }
         ?>
-            <a class="nav-link text-center  <?= $cls ?>" style="font-size: 20px;font-family: Vollkorn;" href="index.php?action=filter&category=<?= $link->id ?>"><?= $link->name ?></a>
+            <a class="nav-link text-center  <?= $cls ?>" style="font-size: 20px;font-family: ovo;" href="index.php?action=filter&category=<?= $link->id ?>"><?= $link->name ?></a>
         <?php
             $cls = "text-dark";
         }
@@ -40,9 +40,9 @@
 </nav>
 
 
-  <div class="w3-row w3-border ">
-  <div class="w3-container w3-half bg-dark text-center text-light banner">
-    <h2 class="head">GET ABOUT SECRET MENUS TODAY!</h2>  
-    <p>s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-  </div>
-<div class="clearfix"></div>
+<div class="w3-row w3-border ">
+    <div class="w3-container w3-half bg-dark text-center text-light banner">
+        <h2 class="head">GET ABOUT SECRET MENUS TODAY!</h2>
+        <p class="text-left">s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+    </div>
+    <div class="clearfix"></div>
