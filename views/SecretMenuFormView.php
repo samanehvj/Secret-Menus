@@ -13,6 +13,19 @@
             </div>
 
             <div class="form-group">
+                <label for="rating">Rating : </label>
+                <select name="rating" id="rating">
+                    <option value="0">Rate the Food</option>
+                    <option value="1">Very Bad</option>
+                    <option value="2">Bad</option>
+                    <option value="3">Normal</option>
+                    <option value="4">Good</option>
+                    <option value="5">Very Good</option>
+                </select>
+
+            </div>
+
+            <div class="form-group">
                 <label for="desc">Description</label>
                 <textarea name="description" class="form-control" id="desc" rows="3"></textarea>
             </div>
