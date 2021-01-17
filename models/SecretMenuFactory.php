@@ -17,6 +17,7 @@ class SecretMenuFactory
         $this->price = $data['price'];
         $this->image = $data['image'];
         $this->description = $data['description'];
+        $this->rating = $data['rating'];
     }
 
     public static function build($data)
