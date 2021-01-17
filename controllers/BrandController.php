@@ -34,6 +34,8 @@ class BrandController extends Controller
         $content = $this->loadView("views/BrandHeadView.php");
 
         $this->data['secret_menus'] = BrandModel::secret_menu($id);
+        $this->ratings = ['No Rating', 'Very Bad', 'Bad', 'Normal', 'Good', 'Very Good'];
+
         $content .= "<div class='container'>" . $this->loadView("views/BrandSecretMenusView.php") . "</div>";
         $content .= $this->loadView("views/SecretMenuFormView.php");
 
@@ -49,6 +51,8 @@ class BrandController extends Controller
         $content = $this->loadView("views/HomeHeadView.php");
 
         $this->data = BrandModel::search($name);
+        $this->ads = AdModel::list();
+
         $content .= "<div class='container'>" . $this->loadView("views/BrandsView.php") . "</div>";
 
         $content .= $this->loadView("views/BrandFormView.php");
@@ -65,6 +69,8 @@ class BrandController extends Controller
         $content = $this->loadView("views/HomeHeadView.php");
 
         $this->data = BrandModel::filter($category);
+        $this->ads = AdModel::list();
+
         $content .= "<div class='container'>" . $this->loadView("views/BrandsView.php") . "</div>";
 
         $content .= $this->loadView("views/BrandFormView.php");
@@ -110,11 +116,11 @@ class BrandController extends Controller
             $message = "New Menu Can Not Be Added";
         }
 
-
-
         $content = $this->loadView("views/BrandHeadView.php");
 
         $this->data['secret_menus'] = BrandModel::secret_menu($id);
+        $this->ratings = ['No Rating', 'Very Bad', 'Bad', 'Normal', 'Good', 'Very Good'];
+
         $content .= "<div class='container'>" . $this->loadView("views/BrandSecretMenusView.php") . "</div>";
 
         $content .= $this->loadView("views/SecretMenuFormView.php");
