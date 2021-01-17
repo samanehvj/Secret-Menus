@@ -2,7 +2,7 @@
 
 
     <!-- Copyright -->
-    <div class="footer-copyright bg-warning text-center py-3 mt-3  " style="font-size: 20px;font-family: raleway;"> All rights © reserved by Secret-Menus 2020
+    <div class="footer-copyright bg-nav text-center py-3 mt-3  " style="font-size: 20px;font-family: ovo;"> All rights © reserved by Secret-Menus 2020
 
     </div>
     <!-- Copyright -->
