@@ -123,12 +123,9 @@ class BrandModel
             $uploadOk = 0;
         }
 
-
-
-
         $query = "INSERT INTO brands 
                 (name, image, category_id) 
-            VALUES ('" . $request['name'] . "','" . $img . "', '" . $request['category'] . "')";
+            VALUES ('" . $request['name'] . "','" . $img . "', '" . $request['category'] . "' )";
 
         if (mysqli_query($con, $query)) {
             if ($uploadOk == 0) {
@@ -153,10 +150,6 @@ class BrandModel
     {
         $con = DatabaseModel::connect();
         $img = basename($file["image"]["name"]);
-
-
-
-
 
         $target_dir = "imgs/";
         $target_file = $target_dir . basename($file["image"]["name"]);
@@ -195,8 +188,8 @@ class BrandModel
 
 
         $query = "INSERT INTO secret_menus 
-                (brand_id, name,price,image, description) 
-            VALUES ('" . $request['brand_id'] . "', '" . $request['name'] . "','" . $request['price'] . "','" . $img . "', '" . $request['description'] . "')";
+                (brand_id, name,price,image, description, rating) 
+            VALUES ('" . $request['brand_id'] . "', '" . $request['name'] . "','" . $request['price'] . "','" . $img . "', '" . $request['description'] . "', '" . $request['rating'] . "')";
 
         if (mysqli_query($con, $query)) {
             if ($uploadOk == 0) {
