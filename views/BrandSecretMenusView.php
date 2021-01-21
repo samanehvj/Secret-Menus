@@ -15,7 +15,7 @@
                     <div class="card-body">
                         <h5 class="card-title"><?= $menu->name ?></h5>
                         <p class="card-text"><?= $menu->description ?> </p>
-                        <h5 class="text-dark text-left card-title"> $ <strong class="border border-dark p-1"><?= $menu->price ?></strong></h5>
+                        <h5 class="text-dark text-left card-title"> $ <strong class=""><?= $menu->price ?></strong></h5>
                         <p>Rate: <?= $this->ratings[$menu->rating] ?></p>
                     </div>
                 </div>
