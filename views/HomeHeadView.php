@@ -40,9 +40,20 @@
 </nav>
 
 
+
+    <div class="text-left ml-5">
+  <!-- <img src="imgs/salt.jpg" class="salt" alt="..."> -->
+  <img class="img-fluid mb-3 float-left d-none d-sm-block  salt" src="imgs/image.png">
+  <img class="img-fluid mb-3 float-right  d-none d-sm-block  peper" src="imgs/image2.png">
+
+
+
+</div>
+
 <div class="w3-row w3-border ">
     <div class="w3-container w3-half bg-dark text-center text-light banner">
-        <h2 class="head">GET ABOUT SECRET MENUS TODAY!</h2>
+        <h2 class="head">FIND YOUR SECRET MENUS TODAY!</h2>
         <p class="text-left">s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+
     </div>
     <div class="clearfix"></div>
