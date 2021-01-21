@@ -2,7 +2,7 @@
 
 
     <!-- Copyright -->
-    <div class="footer-copyright bg-nav  text-center py-3 mt-3  " style="font-size: 20px;font-family: raleway;"> <span>All rights &copy; reserved by <a href="http://www.samanehvj.com/">Samaneh Vajdi</a></span>
+    <div class="footer-copyright bg-nav  text-center py-3 mt-3  " style="font-size: 20px;font-family: ovo;"> <span>All rights &copy; reserved by <a href="http://www.samanehvj.com/">Samaneh Vajdi</a></span>
         </span>
 
     </div>
