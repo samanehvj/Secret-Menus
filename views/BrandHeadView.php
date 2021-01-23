@@ -1,4 +1,4 @@
-<nav class="navbar navbar-light bg-warning justify-content-around mb-5">
+<nav class="navbar navbar-light bg-nav justify-content-around mb-5">
     <a class="navbar-brand" href="index.php">
         <img src="imgs/logo.png" width="130">
     </a>
