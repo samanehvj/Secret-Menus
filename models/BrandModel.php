@@ -81,6 +81,22 @@ class BrandModel
         return $secretMenus;
     }
 
+    public static function review($id)
+    {
+        $con = DatabaseModel::connect();
+
+        $query = "SELECT * FROM reviews WHERE brand_id=" . $id;
+        $res = mysqli_query($con, $query);
+
+        $reviews = array();
+
+        while ($review = mysqli_fetch_assoc($res)) {
+            $reviews[] = ReviewFactory::build($review);
+        }
+
+        return $reviews;
+    }
+
     public static function save($request, $file)
     {
         $con = DatabaseModel::connect();
@@ -208,5 +224,17 @@ class BrandModel
 
             return false;
         }
+    }
+
+    public static function savereview($request)
+    {
+        $con = DatabaseModel::connect();
+
+        $query = "INSERT INTO reviews
+                (brand_id, name, description) 
+            VALUES ('" . $request['brand_id'] . "', '" . $request['name'] . "','" .  $request['description'] . "')";
+
+        return mysqli_query($con, $query);
+           
     }
 }
