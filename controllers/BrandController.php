@@ -39,6 +39,11 @@ class BrandController extends Controller
         $content .= "<div class='container'>" . $this->loadView("views/BrandSecretMenusView.php") . "</div>";
         $content .= $this->loadView("views/SecretMenuFormView.php");
 
+        $this->data['reviews'] = BrandModel::review($id);
+        $content .= $this->loadView("views/BrandReviewView.php");
+
+        $content .= $this->loadView("views/BrandReviewFormView.php");
+
         $content .= $this->loadView("views/FooterView.php");
 
         include("views/MainView.php");
@@ -101,6 +106,17 @@ class BrandController extends Controller
         $content .= $this->loadView("views/FooterView.php");
 
         include("views/MainView.php");
+    }
+
+    public function savereview($request)
+    {
+        if (BrandModel::savereview($request)) {
+            $message = "Brand Review Successfully Added";
+        } else {
+            $message = "Brand Review Can Not Be Added";
+        }
+
+        $this->view($request['brand_id']);
     }
 
     public function savemenu($request, $file)
