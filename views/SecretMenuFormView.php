@@ -37,7 +37,7 @@
                 <input name="image" type="file" class="form-control-file" id="image">
             </div>
 
-            <button type="submit" class="btn btn-warning mb-2">Submit</button>
+            <button type="submit" class="btn bg-nav mb-2">Submit</button>
         </form>
     </div>
 </div>

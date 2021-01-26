@@ -12,7 +12,7 @@
                 <textarea name="description" class="form-control" id="desc" rows="3"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-warning mb-2">Add Review</button>
+            <button type="submit" class="btn bg-nav mb-2">Add Review</button>
         </form>
     </div>
 </div>
