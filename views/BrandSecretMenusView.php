@@ -1,7 +1,7 @@
 <div class="row ">
 
     <?php
-
+    $isNew = true;
     foreach ($this->data['secret_menus'] as $menu) {
 
     ?>
@@ -17,8 +17,9 @@
                         <p class="card-text"><?= $menu->description ?> </p>
                         <h5 class="text-dark text-left card-title"> $ <strong class=""><?= $menu->price ?></strong></h5>
                         <p>Rating: <?= $this->ratings[$menu->rating] ?></p>
-
-
+                        <?php if($isNew) { ?>
+                            <img width="150" class="float-right" src="imgs/new.png" />
+                        <?php $isNew = false; } ?>
 
                     </div>
                 </div>
