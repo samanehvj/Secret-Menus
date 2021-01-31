@@ -16,11 +16,11 @@
                 <label for="rating">Rating : </label>
                 <select name="rating" id="rating">
                     <option value="0">Rate the Food</option>
-                    <option value="1">Very Bad</option>
-                    <option value="2">Bad</option>
-                    <option value="3">Normal</option>
-                    <option value="4">Good</option>
-                    <option value="5">Very Good</option>
+                    <option value="1" style="background-color: red;">Very Bad</option>
+                    <option value="2" style="background-color: orange;">Bad</option>
+                    <option value="3" style="background-color: yellow;">Normal</option>
+                    <option value="4" style="background-color: lightgreen;">Good</option>
+                    <option value="5" style="background-color: green;">Very Good</option>
                 </select>
 
             </div>
