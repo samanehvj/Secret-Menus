@@ -69,7 +69,7 @@ class BrandModel
     {
         $con = DatabaseModel::connect();
 
-        $query = "SELECT * FROM secret_menus WHERE brand_id=" . $id;
+        $query = "SELECT * FROM secret_menus WHERE brand_id=" . $id . " ORDER BY id DESC";
         $res = mysqli_query($con, $query);
 
         $secretMenus = array();
