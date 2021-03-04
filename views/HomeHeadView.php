@@ -38,22 +38,14 @@
         <button class="btn bg-dark text-light my-2 my-sm-0" type="submit">Search</button>
     </form>
 </nav>
-
-
-
     <div class="text-left ml-5">
-  <!-- <img src="imgs/salt.jpg" class="salt" alt="..."> -->
   <img class="img-fluid mb-3 float-left d-none d-sm-block  salt" src="imgs/image.png">
   <img class="img-fluid mb-3 float-right  d-none d-sm-block  peper" src="imgs/image2.png">
-
-
-
 </div>
 
 <div class="w3-row w3-border ">
     <div class="w3-container w3-half bg-dark text-center text-light banner">
         <h2 class="head">FIND YOUR SECRET MENUS TODAY!</h2>
-        <p class="text-left">s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-
+        <p class="text-left">A simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
     </div>
     <div class="clearfix"></div>
