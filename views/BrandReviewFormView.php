@@ -6,12 +6,10 @@
                 <label for="name">Name </label>
                 <input name="name" type="text" class="form-control" id="name" placeholder="Your Full Name">
             </div>
-
             <div class="form-group">
                 <label for="desc">Description</label>
                 <textarea name="description" class="form-control" id="desc" rows="3"></textarea>
             </div>
-
             <button type="submit" class="btn bg-nav mb-2">Add Review</button>
         </form>
     </div>
